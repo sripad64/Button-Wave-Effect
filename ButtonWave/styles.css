@@ -1,0 +1,96 @@
+/*For Styling, not for Affect*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+/*For Actual Affect*/
+button{
+    width: 150px;
+    padding: 12px;
+    border-radius: 20px;
+    color: aliceblue;
+    border: 3px solid #284cff;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url("https://web.archive.org/web/20160312084140im_/http://splatoon.nintendo.com/assets/img/nav-bg-fill-blue.png?1443460871");
+    background-repeat: repeat-x;
+    background-position: 0 -100%;
+    transition: 1.1s ease;
+
+
+}
+
+
+button:hover{
+    background-position: center;
+    width: 200px;
+    border-radius: 40px;
+
+}
+
+button:active{
+    background-position: center;
+    width: 200px;
+    border-radius: 40px
+    
+
+}
+
+
+button:nth-child(1){
+    filter: hue-rotate(0deg);
+}
+
+button:nth-child(2){
+    filter: hue-rotate(20deg);
+}
+
+button:nth-child(3){
+    filter: hue-rotate(40deg);
+}
+
+button:nth-child(4){
+    filter: hue-rotate(60deg);
+}
+
+button:nth-child(5){
+    filter: hue-rotate(100deg);
+}
+
+button:nth-child(6){
+    filter: hue-rotate(180deg);
+}
+
+button:nth-child(7){
+    filter: hue-rotate(200deg);
+}
+
+button:nth-child(8){
+    filter: hue-rotate(240deg);
+}
+
+button:nth-child(9){
+    filter: hue-rotate(260deg);
+}
